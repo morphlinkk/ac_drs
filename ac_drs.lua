@@ -2,7 +2,7 @@ local store = require("store")
 local zones = require("zones")
 local drs = require("drs")
 
-ac.console("DRS rules started")
+ac.console("DRS rules are applied")
 
 function script.update(dt)
   local sim = ac.getSim()
